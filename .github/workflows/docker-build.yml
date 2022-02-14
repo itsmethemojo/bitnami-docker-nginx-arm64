@@ -8,6 +8,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
+    environment: docker-build
     steps:
 
       - name: Get latest tag
